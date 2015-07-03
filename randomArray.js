@@ -5,7 +5,7 @@ function randomNumber (m,n)
   return Math.floor( Math.random() * (n - m + 1) ) + m;
 }
 
-Array.prototype.fill = function( b, size, m, n )
+Array.prototype.fill = function( size, m, n )
 {
  var i;
  for (i = 0;i <= size;i++) {   
