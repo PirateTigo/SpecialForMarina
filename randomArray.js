@@ -7,7 +7,7 @@ function randomNumber (m,n)
 
 Array.prototype.fill = function( b, size, m, n )
 {
- var i, j;
+ var i;
  for (i = 0;i <= size;i++) {   
   this[i] =  randomNumber(m, n);
  }
